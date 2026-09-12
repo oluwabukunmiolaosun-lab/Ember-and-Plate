@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ember & Plate — Fine Dining in Lagos</title>
+<meta name="description" content="Ember & Plate is a fine dining restaurant in Lagos, Nigeria. Exceptional food, beautifully served. View our menu, reserve a table, and find us in Lekki.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain-overlay" aria-hidden="true"></div>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <a href="#top" class="brand">Ember <span class="brand-amp">&amp;</span> Plate</a>
+
+    <nav class="main-nav" id="main-nav">
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reserve">Reservations</a>
+      <a href="#location">Location</a>
+    </nav>
+
+    <a href="#reserve" class="btn btn-ghost header-cta">Book a Table</a>
+
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="hero">
+  <div class="hero-media">
+    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1800&q=80" alt="Elegant plated dish at Ember & Plate" loading="eager">
+  </div>
+  <div class="hero-scrim"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Ember &amp; Plate — Lagos</p>
+    <h1 class="hero-title">A Dining Experience<br>Worth Remembering.</h1>
+    <p class="hero-sub">Exceptional food, beautiful presentation, and an atmosphere designed for memorable moments.</p>
+    <div class="hero-actions">
+      <a href="#menu" class="btn btn-primary">View Menu</a>
+      <a href="#reserve" class="btn btn-outline">Book a Table</a>
+    </div>
+  </div>
+  <div class="hero-scroll" aria-hidden="true"><span></span></div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="about" id="about">
+  <div class="about-grid">
+    <div class="about-image">
+      <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80" alt="Interior of Ember & Plate dining room" loading="lazy">
+      <div class="about-image-frame"></div>
+    </div>
+    <div class="about-copy">
+      <p class="section-kicker">Our Story</p>
+      <h2>More Than a Meal.</h2>
+      <p>Ember &amp; Plate began with a simple idea: that a great restaurant should feel unhurried. In our open kitchen in the heart of Lekki, our chefs work over live fire and slow-cooked technique, pairing bold, smoke-driven flavour with the kind of quiet, attentive service that lets a meal breathe.</p>
+      <p>Every plate that leaves our pass is built around three things — the honesty of the ingredient, the precision of the cook, and the warmth of the room it's served in. We source produce from growers across the Southwest, work closely with local fishermen for the day's catch, and change our menu with the seasons rather than the calendar.</p>
+      <p>Whether you're joining us for a quiet dinner for two or gathering the whole table for a celebration, our aim stays the same — to give you an evening worth returning for.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MENU ============ -->
+<section class="menu" id="menu">
+  <div class="section-head">
+    <p class="section-kicker">Signature Menu</p>
+    <h2>Dishes We're Known For</h2>
+    <p class="section-lede">A selection from our seasonal menu — built around live fire, fresh seafood, and careful technique.</p>
+  </div>
+
+  <div class="menu-grid">
+
+    <article class="menu-card">
+      <div class="menu-card-media">
+        <img src="https://images.unsplash.com/photo-1625943913265-96db2b1cbb63?auto=format&fit=crop&w=900&q=80" alt="Charred King Prawns" loading="lazy">
+      </div>
+      <div class="menu-card-body">
+        <div class="menu-card-row">
+          <h3>Charred King Prawns</h3>
+          <span class="menu-price">₦18,500</span>
+        </div>
+        <p>Chargrilled over open flame, finished with garlic-chilli butter and fresh lime.</p>
+      </div>
+    </article>
+
+    <article class="menu-card">
+      <div class="menu-card-media">
+        <img src="https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?auto=format&fit=crop&w=900&q=80" alt="Ember Grilled Chicken" loading="lazy">
+      </div>
+      <div class="menu-card-body">
+        <div class="menu-card-row">
+          <h3>Ember Grilled Chicken</h3>
+          <span class="menu-price">₦14,000</span>
+        </div>
+        <p>Free-range chicken, dry-brined and slow-grilled, served with charred lemon and herb jus.</p>
+      </div>
+    </article>
+
+    <article class="menu-card">
+      <div class="menu-card-media">
+        <img src="https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&fit=crop&w=900&q=80" alt="Truffle Mushroom Risotto" loading="lazy">
+      </div>
+      <div class="menu-card-body">
+        <div class="menu-card-row">
+          <h3>Truffle Mushroom Risotto</h3>
+          <span class="menu-price">₦16,500</span>
+        </div>
+        <p>Slow-stirred arborio rice, wild mushrooms, aged parmesan, and shaved black truffle.</p>
+      </div>
+    </article>
+
+    <article class="menu-card">
+      <div class="menu-card-media">
+        <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=900&q=80" alt="Herb-Crusted Sea Bass" loading="lazy">
+      </div>
+      <div class="menu-card-body">
+        <div class="menu-card-row">
+          <h3>Herb-Crusted Sea Bass</h3>
+          <span class="menu-price">₦21,000</span>
+        </div>
+        <p>Pan-seared sea bass, herb crust, brown butter, and confit heirloom tomato.</p>
+      </div>
+    </article>
+
+    <article class="menu-card">
+      <div class="menu-card-media">
+        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80" alt="Slow-Roasted Beef" loading="lazy">
+      </div>
+      <div class="menu-card-body">
+        <div class="menu-card-row">
+          <h3>Slow-Roasted Beef</h3>
+          <span class="menu-price">₦24,500</span>
+        </div>
+        <p>36-hour slow-roasted short rib, red wine reduction, and roasted root vegetables.</p>
+      </div>
+    </article>
+
+    <article class="menu-card">
+      <div class="menu-card-media">
+        <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=900&q=80" alt="Dark Chocolate Tart" loading="lazy">
+      </div>
+      <div class="menu-card-body">
+        <div class="menu-card-row">
+          <h3>Dark Chocolate Tart</h3>
+          <span class="menu-price">₦8,500</span>
+        </div>
+        <p>70% dark chocolate ganache, cocoa nib crumble, and gold leaf.</p>
+      </div>
+    </article>
+
+    <article class="menu-card">
+      <div class="menu-card-media">
+        <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=900&q=80" alt="Vanilla Panna Cotta" loading="lazy">
+      </div>
+      <div class="menu-card-body">
+        <div class="menu-card-row">
+          <h3>Vanilla Panna Cotta</h3>
+          <span class="menu-price">₦7,500</span>
+        </div>
+        <p>Madagascan vanilla bean panna cotta with macerated seasonal berries.</p>
+      </div>
+    </article>
+
+  </div>
+
+  <p class="menu-note">Prices are in Nigerian Naira and may vary with seasonal availability.</p>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="gallery" id="gallery">
+  <div class="section-head">
+    <p class="section-kicker">Gallery</p>
+    <h2>A Look Inside</h2>
+  </div>
+
+  <div class="gallery-grid">
+    <div class="gallery-item span-2">
+      <img src="https://images.unsplash.com/photo-1592861956120-e524fc739696?auto=format&fit=crop&w=1400&q=80" alt="Ember & Plate dining room ambience" loading="lazy">
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80" alt="Table setting at Ember & Plate" loading="lazy">
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=900&q=80" alt="Chef plating a dish" loading="lazy">
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?auto=format&fit=crop&w=900&q=80" alt="Fine dining plated dish" loading="lazy">
+    </div>
+    <div class="gallery-item span-2">
+      <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1400&q=80" alt="Bar area at Ember & Plate" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- ============ RESERVATION ============ -->
+<section class="reserve" id="reserve">
+  <div class="reserve-grid">
+    <div class="reserve-copy">
+      <p class="section-kicker">Reservations</p>
+      <h2>Reserve Your Table</h2>
+      <p>Tell us a little about your visit and we'll confirm your table by phone or WhatsApp. For parties larger than ten, please contact us directly.</p>
+
+      <div class="reserve-contact">
+        <a href="tel:+2348135550192" class="reserve-contact-item">
+          <span class="reserve-contact-label">Call</span>
+          <span>+234 8000000000</span>
+        </a>
+        <a href="https://wa.me/2348012345678?text=Hello%20Ember%20%26%20Plate%2C%20I%27d%20like%20to%20make%20a%20reservation." target="_blank" rel="noopener" class="reserve-contact-item">
+          <span class="reserve-contact-label">WhatsApp</span>
+          <span>+234 801 234 5678</span>
+        </a>
+      </div>
+    </div>
+
+    <form class="reserve-form" id="reserve-form" novalidate>
+      <div class="form-row">
+        <label for="res-name">Full name</label>
+        <input type="text" id="res-name" name="name" placeholder="Your name" required>
+      </div>
+
+      <div class="form-row">
+        <label for="res-phone">Phone number</label>
+        <input type="tel" id="res-phone" name="phone" placeholder="080X XXX XXXX" required>
+      </div>
+
+      <div class="form-row-split">
+        <div class="form-row">
+          <label for="res-date">Date</label>
+          <input type="date" id="res-date" name="date" required>
+        </div>
+        <div class="form-row">
+          <label for="res-time">Time</label>
+          <input type="time" id="res-time" name="time" required>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <label for="res-guests">Guests</label>
+        <select id="res-guests" name="guests" required>
+          <option value="" disabled selected>Select party size</option>
+          <option>1 guest</option>
+          <option>2 guests</option>
+          <option>3 guests</option>
+          <option>4 guests</option>
+          <option>5 guests</option>
+          <option>6 guests</option>
+          <option>7+ guests</option>
+        </select>
+      </div>
+
+      <div class="form-row">
+        <label for="res-notes">Special request <span class="optional">(optional)</span></label>
+        <textarea id="res-notes" name="notes" rows="3" placeholder="Anniversary, allergies, seating preference…"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary form-submit">Request Reservation</button>
+      <p class="form-confirm" id="form-confirm" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<!-- ============ LOCATION ============ -->
+<section class="location" id="location">
+  <div class="location-grid">
+    <div class="location-map" role="img" aria-label="Map showing Ember & Plate location in Lekki, Lagos">
+      <iframe
+        title="Ember & Plate location map"
+        src="https://maps.google.com/maps?q=Lekki%20Phase%201%2C%20Lagos&t=&z=14&ie=UTF8&iwloc=&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+
+    <div class="location-info">
+      <p class="section-kicker">Visit Us</p>
+      <h2>Find Ember &amp; Plate</h2>
+
+      <div class="info-block">
+        <h3>Address</h3>
+        <p>14 Admiralty Way<br>Lekki Phase 1, Lagos, Nigeria</p>
+      </div>
+
+      <div class="info-block">
+        <h3>Opening Hours</h3>
+        <ul class="hours-list">
+          <li><span>Tuesday – Friday</span><span>12:00 PM – 11:00 PM</span></li>
+          <li><span>Saturday</span><span>11:00 AM – 12:00 AM</span></li>
+          <li><span>Sunday</span><span>11:00 AM – 10:00 PM</span></li>
+          <li><span>Monday</span><span>Closed</span></li>
+        </ul>
+      </div>
+
+      <div class="info-block">
+        <h3>Contact</h3>
+        <p><a href="tel:+2348135550192">+234 8000000000</a><br>
+        <a href="mailto:hello@emberandplate.demo">hello@emberandplate.demo</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHATSAPP FLOATING BUTTON ============ -->
+<a href="https://wa.me/2348012345678?text=Hello%20Ember%20%26%20Plate%2C%20I%27d%20like%20to%20enquire%20about%20a%20reservation."
+   class="whatsapp-float" target="_blank" rel="noopener" aria-label="Enquire on WhatsApp">
+  <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16.02 3C9.4 3 4 8.4 4 15.02c0 2.36.66 4.56 1.8 6.44L4 29l7.72-1.75a11.9 11.9 0 0 0 4.3.8h.01c6.62 0 12.02-5.4 12.02-12.02C28.05 8.4 22.65 3 16.02 3zm0 21.9h-.01a9.9 9.9 0 0 1-5.04-1.38l-.36-.21-3.83.87.87-3.73-.24-.38a9.87 9.87 0 0 1-1.53-5.05c0-5.47 4.46-9.93 9.94-9.93 2.65 0 5.15 1.04 7.03 2.92a9.86 9.86 0 0 1 2.9 7.02c0 5.48-4.46 9.87-9.73 9.87zm5.44-7.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.48-1.76-1.66-2.06-.17-.3-.02-.46.13-.61.14-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.6-.92-2.2-.24-.57-.49-.5-.67-.5-.17-.01-.37-.01-.57-.01s-.52.07-.8.37c-.27.3-1.05 1.02-1.05 2.5s1.08 2.9 1.23 3.1c.15.2 2.13 3.24 5.16 4.55.72.31 1.28.5 1.72.63.72.23 1.38.2 1.9.12.58-.09 1.76-.72 2.01-1.41.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35z"/></svg>
+</a>
+
+<!-- ============ DEMON CODER PROMO ============ -->
+<section class="promo" id="contact">
+  <div class="promo-inner">
+    <p class="section-kicker promo-kicker">Made By DEMON CODER</p>
+    <h2>Your Restaurant Deserves<br>A Website Like This.</h2>
+    <p>Give your restaurant a professional online presence that helps customers discover your menu, location, services and brand.</p>
+    <div class="promo-actions">
+      <a href="https://demoncoder.netlify.app/#contact" class="btn btn-primary" target="_blank" rel="noopener">Build My Restaurant Website →</a>
+    </div>
+    <p class="promo-whatsapp">WhatsApp: <a href="https://wa.me/2349029108231" target="_blank" rel="noopener">+234 902 910 8231</a></p>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="footer-logo">Ember &amp; Plate</span>
+      <span class="footer-tagline">Exceptional Food. Beautifully Served.</span>
+    </div>
+
+    <nav class="footer-nav">
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reserve">Reservations</a>
+      <a href="#location">Location</a>
+    </nav>
+
+    <div class="footer-meta">
+      <p>© <span id="year"></span> Ember &amp; Plate. All rights reserved.</p>
+      <p class="footer-credit">Website designed by <a href="https://demoncoder.netlify.app/" target="_blank" rel="noopener">DEMON CODER</a></p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
